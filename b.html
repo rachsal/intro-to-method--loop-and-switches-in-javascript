@@ -1,0 +1,80 @@
+<html>
+
+<body>
+
+    <script>
+
+        var a;
+
+
+        var a = Math.random();//0 to 1 : 0.5,0.00008
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.abs(-20);// |-3|=3, |30|=30 : positive
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.acos(-1);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.asin(1);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.atan(0.5);
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.round(10.487567);//.5->11
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.floor(10.57567);//10
+
+        document.write("a = " + a + "<br>");
+
+        a = Math.ceil(10.57567);//11
+
+        document.write("a = " + a + "<br>");
+
+        var b = "Hello AnUGraHA";
+
+        b = b.toUpperCase();
+
+        document.write("b = " + b + "<br>");
+
+        b = b.toLowerCase();
+
+        document.write("b = " + b + "<br>");
+
+        b = "Hello AnUGraHA";
+
+        b = b.startsWith("Hel");//true
+
+        document.write("b = " + b + "<br>");
+
+        b = "Hello AnUGraHA";
+
+        b = b.endsWith("Hel");//false
+
+        document.write("b = " + b + "<br>");
+
+        b = "Hello AnUGraHA";
+
+        var p = new RegExp("An");//An
+
+        var res = p.test(b);//true
+
+        document.write("res =" + res + "<br>");
+
+        var d = new Date();
+
+        document.write("Current date and time = <br>" + d);
+
+    </script>
+
+</body>
+
+</html>
